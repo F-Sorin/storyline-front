@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <p>Hello</p>
-    </div>
+    <v-container>Mon profil</v-container>
 </template>
 
 <script>
