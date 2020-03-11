@@ -32,6 +32,7 @@ const routes = [
     name: 'Scenarios',
     component: Scenarios,
   },
+  {
     path: '/login',
     name: 'Login',
     component: Login,
