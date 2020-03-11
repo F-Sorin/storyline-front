@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 import Profil from '@/views/Profil.vue';
 import Scenarios from '@/views/Scenarios.vue';
 import Home from '../views/Home.vue';
+import Login from '../views/Login';
+import Registration from '../views/Registration';
 
 Vue.use(VueRouter);
 
@@ -29,6 +31,15 @@ const routes = [
     path: '/scenarios',
     name: 'Scenarios',
     component: Scenarios,
+  },
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },
+  {
+    path: '/registration',
+    name: 'Registration',
+    component: Registration,
   },
 ];
 

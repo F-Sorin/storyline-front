@@ -40,6 +40,9 @@
     <v-app-bar app clipped-left>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title>Menu</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <router-link to="/login">Sign in</router-link>
+      <router-link to="/registration">Sign up</router-link>
     </v-app-bar>
     <router-view></router-view>
     <v-footer app>
@@ -49,9 +52,6 @@
 </template>
 <script>
 export default {
-  props: {
-    source: String,
-  },
   data: () => ({
     drawer: null,
   }),
