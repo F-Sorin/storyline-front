@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Profil from '@/views/Profil.vue';
+import Scenarios from '@/views/Scenarios.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
@@ -23,6 +24,11 @@ const routes = [
     path: '/profil',
     name: 'Profil',
     component: Profil,
+  },
+  {
+    path: '/scenarios',
+    name: 'Scenarios',
+    component: Scenarios,
   },
 ];
 

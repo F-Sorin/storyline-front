@@ -15,7 +15,8 @@
             <v-icon>mdi-view-dashboard</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Mes Scénarios</v-list-item-title>
+            <v-list-item to="/scenarios">Mes scénarios</v-list-item>
+            <!--<v-list-item-title>Mes Scénarios</v-list-item-title>-->
           </v-list-item-content>
         </v-list-item>
         <v-list-item link>

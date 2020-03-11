@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <p>Mon Profil</p>
-    </div>
+    <v-app>
+        <p>Mes scénarios</p>
+    </v-app>
 </template>
 
 <script>
