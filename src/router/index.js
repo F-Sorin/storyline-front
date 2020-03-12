@@ -2,9 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Profil from '@/views/Profil.vue';
 import Scenarios from '@/views/Scenarios.vue';
-import Home from '../views/Home.vue';
-import Login from '../views/Login';
-import Registration from '../views/Registration';
+import Home from '@/views/Home.vue';
+import Login from '../views/Login.vue';
+import Registration from '../views/Registration.vue';
 
 Vue.use(VueRouter);
 
